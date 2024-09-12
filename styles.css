@@ -294,62 +294,61 @@
   width:100%;
 }
 
-/*mobile responsive code*/
-@media screen and (mad-width:768px){
+@media screen and (max-width: 768px) {
   .main__container {
     display: grid;
     grid-template-columns: auto;
-    align-items:center;
-    justify-self:center;
-    width:100%;
-    margin:0 auto;
-    height:90vh;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 90vh;
   }
 
-  .main__content{
-    text-align:center;
-    margin-bottom:4rem;
+  .main__content {
+    text-align: center;
+    margin-bottom: 4rem;
   }
 
   .main__content h1 {
-    font-size:2.5rem;
-    margin-top:2rem;
+    font-size: 2.5rem;
+    margin-top: 2rem;
   }
 
   .main__content h2 {
-    font-size:3rem;
+    font-size: 3rem;
   }
 
-  .main__content p{
-    margin-top:1rem;
-    font-size:1.5rem;
+  .main__content p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
   }
 }
-
-@media screen and (max-width:480px){
+@media screen and (max-width: 480px) {
   .main__content h1 {
-    font-size:2rem;
-    margin-top:3rem;
+    font-size: 2rem;
+    margin-top: 3rem;
   }
 
   .main__content h2 {
-    font-size:2rem;
+    font-size: 2rem;
   }
 
-  .main__content p{
-    margin-top:2rem;
-    font-size:1.5rem;
+  .main__content p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
   }
-  .main__btn{
-    padding: 12px,36;
-    margin:2.5rem, 0;
+
+  .main__btn {
+    padding: 12px 36px;
+    margin: 2.5rem 0;
   }
 }
 
 /* Services Section */
 .services {
   background: #131313;
-  display: flex;
+  display: grid;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -372,7 +371,7 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   font-size: 2.5rem;
 }
 
@@ -478,6 +477,8 @@
     width: 300px;
   }
 }
+
+
 /* Footer CSS */
 .footer__container {
   background-color: #141414;
@@ -586,18 +587,20 @@
   }
 
   #footer__logo {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
- 
   .website__rights {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
+
   .footer__link--wrapper {
     flex-direction: column;
   }
 
-  
+  .social__media--wrap {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 480px) {
